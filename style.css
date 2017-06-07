@@ -1,0 +1,197 @@
+body {
+	margin: auto;
+	background-color: white;
+}
+
+.cover {
+	height: 650px;
+	margin: auto;
+	background: url("street-high-resolution-wallpaper-for-desktop-background-download-street-images.jpg");
+	background-size: cover;
+}
+
+.cover-page {
+	width: 500px;
+	height: 200px;
+	margin: auto;
+	border-radius: 20px;
+	background-color: black;
+	color: #284C70;
+	font-family: 'Lobster';
+	opacity: 0.9;
+	font-size: 40px;
+	text-align: center;
+	vertical-align: middle;
+}
+.welcome {
+	font-size: 60px;
+}
+.css {
+	font-style: italic;
+}
+
+.top-margin {
+	margin-top: 50px;
+}
+
+img {
+	width: 550px;
+	height: 330px;
+}
+
+.filter-name {
+	font-size: 30px;
+	font-family: 'Lobster';
+	text-align: center;
+}
+
+.before-after {
+	text-align: center;
+	font-size: 20px;
+	font-family: helvetica;
+	padding: 10px;
+}
+
+/*
+.st-petes {
+	-webkit-filter: brightness(0);
+	-webkit-filter: contrast(0.5);
+	-webkit-filter: grayscale(.8);
+	-webkit-filter: hue-rotate(180deg);
+	-webkit-filter: opacity(.1);
+	-webkit-filter: sepia(.6);
+	-webkit-filter: saturate(4);
+}*/
+
+@keyframes hue-rotate {
+	from {
+		filter: hue-rotate(0deg);
+		-webkit-filter: hue-rotate(0deg);
+	}
+	to {
+		filter: hue-rotate(360deg);
+		-webkit-filter: hue-rotate(360deg);
+	}
+}
+
+@keyframes grayscale {
+	from {
+		filter: grayscale(0);
+		-webkit-filter: grayscale(0);
+	}
+	to {
+		filter: grayscale(1.0);
+		-webkit-filter: grayscale(1.0);
+	}
+}
+
+@keyframes sepia {
+	from {
+		filter:sepia(0);
+		-webkit-filter:sepia(0);
+	}
+	to {
+		filter: sepia(1.0);
+		-webkit-filter:sepia(1.0);
+	}
+}
+
+@keyframes saturate {
+	from {
+		filter:saturate(0);
+		-webkit-filter: saturate(0);
+	}
+	to {
+		filter:saturate(8);
+		-webkit-filter: saturate(8);
+	}
+}
+
+@keyframes brightness{
+	from {
+		filter:brightness(1.0);
+		-webkit_filter: brightness(1.0);
+	}
+	to {
+		filter:brightness(0);
+		-webkit_filter: brightness(0);
+	}
+}
+
+@keyframes contrast {
+	from {
+		filter:contrast(0.0);
+		-webkit_filter: contrast(0.0);
+
+	}
+	to {
+		filter:contrast(1.0);
+		-webkit_filter: contrast(1.0);
+
+	}
+}
+
+@keyframes opacity {
+	from {
+		filter:opacity(1);
+		-webkit_filter: opacity(1);
+	}
+	to {
+		filter:opacity(0.0);
+		-webkit_filter: opacity(0.0);
+	}
+}
+
+
+.hue-rotate {
+	animation: hue-rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.grayscale {
+	animation: grayscale;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.saturation {
+	animation: saturate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.sepia {
+	animation: sepia;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;	
+}
+
+.contrast {
+	animation: contrast;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;	
+}
+
+.brightness {
+	animation: brightness;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;	
+}
+
+.opacity {
+	animation: opacity;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;	
+}
+
+.footer {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 15px;
+	letter-spacing: 0.2em;
+	padding: 15px;
+	background-color: #e3e3e3;
+	height: 50px;
+	font-weight: bold;
+}
